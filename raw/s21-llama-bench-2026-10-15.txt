@@ -1,0 +1,19 @@
+# Galaxy S21 (Exynos 2100) llama.cpp 실측 원본 출력
+# 측정일: 2026-10-15, 기기 USB 연결(충전 중), 배터리 온도 약 35~37°C
+# 명령: android/s21_bench.sh (campus-nlp 커밋 f03f3d2)
+#   ./llama-bench -m gemma3-270m-route-Q4_K_M.gguf -p 512 -n 64 -t {4|6}
+# 이 파일은 2026-11-21에 측정 로그에서 옮겨 적었다. 반복 수는 llama-bench 기본값, 발열 통제 없음.
+
+== threads 4
+| model                          |       size |     params | backend    | threads |            test |                  t/s |
+| gemma3 270M Q4_K - Medium      | 235.16 MiB |   268.10 M | CPU        |       4 |           pp512 |       405.12 ± 17.28 |
+| gemma3 270M Q4_K - Medium      | 235.16 MiB |   268.10 M | CPU        |       4 |            tg64 |         72.13 ± 0.94 |
+== threads 6
+| model                          |       size |     params | backend    | threads |            test |                  t/s |
+| gemma3 270M Q4_K - Medium      | 235.16 MiB |   268.10 M | CPU        |       6 |           pp512 |       245.96 ± 17.37 |
+| gemma3 270M Q4_K - Medium      | 235.16 MiB |   268.10 M | CPU        |       6 |            tg64 |         47.73 ± 2.04 |
+== one real request (llama-completion, sample_prompt.txt)
+common_perf_print:        load time =    1384.81 ms
+common_perf_print: prompt eval time =    2086.39 ms /   624 tokens (    3.34 ms per token,   299.08 tokens per second)
+common_perf_print:        eval time =    3289.25 ms /   159 runs   (   20.69 ms per token,    48.34 tokens per second)
+common_perf_print:       total time =    5491.60 ms /   783 tokens
