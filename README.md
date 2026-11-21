@@ -84,8 +84,11 @@ for key in ("best", "last"):
 | Redis 연동 | [커밋 4fd550d](https://github.com/HumanRhoid/jsp-secondhand-market/commit/4fd550d), 랭킹 코드는 팀원도 수정 |
 | 계층 구조, 예외 처리, 보안 | 팀원 jominho37 커밋 |
 
-## 7. 근거가 GitHub에 없는 항목
+## 7. 저장소 밖 근거
 
-- AWS Student Builder Groups Core Team Member: [배지](raw/aws-student-builder-group-core-team.png)
-- DI-lab 학부 연구생, Backend.AI 실습: 활동 기록. 저장소 없음.
-- 다음 학습 계획(JVM, 모니터링, 부하 시험): 아직 시작 전.
+| 항목 | 근거 |
+|---|---|
+| AWS Student Builder Groups Core Team Member | [배지](raw/aws-student-builder-group-core-team.png) |
+| DI-lab 퇴원기록 선별과 NER 학습 | MIMIC 사용 규정상 비공개. 건수와 점수만 포트폴리오에 표시 (테스트 F1 0.377 → 0.592, 학습 문서 30건 → 60건) |
+| Backend.AI 실습 | 실행 화면 캡처만 있음 |
+| 다음 학습 계획 (JVM, 모니터링, 부하 시험) | 아직 시작 전 |
