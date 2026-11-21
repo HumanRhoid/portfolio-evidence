@@ -56,7 +56,7 @@ for key in ("best", "last"):
 | 층 노드 미결합 5건에서 0건 | 같은 결과 파일 `validation.before/after.byCode.LEVEL_NODES_NOT_JOINED`. 전체 경고는 176건에서 195건으로 늘었음 |
 | 사람만 할 때와 MCP 도입 후 비교 | [docs/EDITOR_MCP_PLAN.md @ aaa4df3](https://github.com/HumanRhoid/campus-tracker/blob/aaa4df3/docs/EDITOR_MCP_PLAN.md) 0절, 2절 |
 | 도구 약 20개 | [editor-mcp/tools @ cf67063](https://github.com/HumanRhoid/campus-tracker/tree/cf67063/backend/src/modules/editor-mcp/tools) |
-| 역할: MCP 확장과 적용 검증 | [editor-mcp 커밋 이력](https://github.com/HumanRhoid/campus-tracker/commits/main/backend/src/modules/editor-mcp). 첫 코드는 팀원 hoshi2710 커밋 `677bfbc`, 본인 커밋 6개 |
+| 역할: MCP 확장과 적용 검증 | [editor-mcp 커밋 이력](https://github.com/HumanRhoid/campus-tracker/commits/main/backend/src/modules/editor-mcp). 첫 코드는 팀원 hoshi2710 커밋 `677bfbc` |
 
 ## 5. 서버와 배포
 
@@ -64,7 +64,6 @@ for key in ("best", "last"):
 |---|---|
 | campus-tracker: Express, TypeScript, PostgreSQL, socket.io, JWT, MCP | [backend/package.json @ 90e26c0](https://github.com/HumanRhoid/campus-tracker/blob/90e26c0/backend/package.json) |
 | 테스트 파일 49개 | [backend/test @ 1420d97](https://github.com/HumanRhoid/campus-tracker/tree/1420d97/backend/test) |
-| 본인 커밋 500개 이상 | `git log --all --author=SSANTA11 --author="RHO HYUNSOO" --oneline \| wc -l` → 508 |
 | campus-backend 단독 개발 | [커밋 이력](https://github.com/HumanRhoid/campus-backend/commits/develop), 작성자 모두 본인 |
 | pytest 시험 함수 131개 | [tests @ e4d0832](https://github.com/HumanRhoid/campus-backend/tree/e4d0832/tests), `grep -c "def test_" tests/*.py` 합 |
 | CI | [.github/workflows/ci.yml @ 51be88f](https://github.com/HumanRhoid/campus-backend/blob/51be88f/.github/workflows/ci.yml), push와 pull_request |
@@ -74,7 +73,7 @@ for key in ("best", "last"):
 
 ## 6. 중고거래 웹 (jsp-secondhand-market, 팀 프로젝트)
 
-원본은 팀원의 비공개 저장소라, 커밋 이력을 그대로 옮긴 공개 사본을 만들었습니다. 커밋 39개 중 본인 17개(`SSANTA11`, `RHOHYUNSOO`), 팀원 jominho37 22개.
+원본은 팀원의 비공개 저장소라, 커밋 이력을 그대로 옮긴 공개 사본을 만들었습니다. 본인 계정은 `SSANTA11`, `RHOHYUNSOO`, 팀원은 jominho37.
 
 | 주장 | 근거 |
 |---|---|
