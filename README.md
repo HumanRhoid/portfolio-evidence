@@ -88,4 +88,4 @@ for key in ("best", "last"):
 
 - AWS Student Builder Groups Core Team Member: [배지](raw/aws-student-builder-group-core-team.png)
 - DI-lab 학부 연구생, Backend.AI 실습: 활동 기록. 저장소 없음.
-- 진행 중인 백엔드 학습(JVM, 모니터링, 부하 시험): 계획 단계.
+- 다음 학습 계획(JVM, 모니터링, 부하 시험): 아직 시작 전.
