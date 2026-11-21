@@ -71,7 +71,20 @@ for key in ("best", "last"):
 | 운영 배포 구성 | [커밋 59030af](https://github.com/HumanRhoid/campus-backend/commit/59030af) compose, [aa138ca](https://github.com/HumanRhoid/campus-backend/commit/aa138ca) Dockerfile과 릴리스 가져오기 |
 | PR 단위 개발과 코드 리뷰 | [원본 저장소 PR 목록](https://github.com/SW-ECS-contest-Team-9/campus-backend/pulls?q=is%3Apr) |
 
-## 6. 근거가 GitHub에 없는 항목
+
+## 6. 중고거래 웹 (jsp-secondhand-market, 팀 프로젝트)
+
+원본은 팀원의 비공개 저장소라, 커밋 이력을 그대로 옮긴 공개 사본을 만들었습니다. 커밋 39개 중 본인 17개(`SSANTA11`, `RHOHYUNSOO`), 팀원 jominho37 22개.
+
+| 주장 | 근거 |
+|---|---|
+| Docker Compose로 앱, PostgreSQL, Redis 실행 구성 | [커밋 331deee](https://github.com/HumanRhoid/jsp-secondhand-market/commit/331deee) |
+| EC2 배포 중 DB 초기화 스크립트 충돌 수정 | [커밋 c038b5a](https://github.com/HumanRhoid/jsp-secondhand-market/commit/c038b5a). EC2 설정 파일은 저장소에 없음 |
+| 카카오맵 위치, 결제, SNS 로그인 | [커밋 16c112c](https://github.com/HumanRhoid/jsp-secondhand-market/commit/16c112c), 결제 교체 [2eca3d1](https://github.com/HumanRhoid/jsp-secondhand-market/commit/2eca3d1) |
+| Redis 연동 | [커밋 4fd550d](https://github.com/HumanRhoid/jsp-secondhand-market/commit/4fd550d), 랭킹 코드는 팀원도 수정 |
+| 계층 구조, 예외 처리, 보안 | 팀원 jominho37 커밋 |
+
+## 7. 근거가 GitHub에 없는 항목
 
 - AWS Student Builder Groups Core Team Member: [배지](raw/aws-student-builder-group-core-team.png)
 - DI-lab 학부 연구생, Backend.AI 실습: 활동 기록. 저장소 없음.
